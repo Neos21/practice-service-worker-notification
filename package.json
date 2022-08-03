@@ -1,0 +1,27 @@
+{
+  "name": "practice-service-worker-notification",
+  "description": "Practice Service Worker Notification",
+  "private": true,
+  "scripts": {
+    "postinstall": "node ./generate-application-server-keys.js",
+    "start": "node ./server/index.js"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-service-worker-notification#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-service-worker-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-service-worker-notification/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "dependencies": {
+    "express": "4.18.1",
+    "web-push": "3.5.0"
+  }
+}
